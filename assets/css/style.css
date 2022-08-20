@@ -10,6 +10,9 @@
 
 main {
     display: flex;
+    background: url(../img/square.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -52,9 +55,6 @@ button:focus {
 }
 
 .conteudo__descricao{
-    background: url(../img/square.svg);
-    background-position: bottom right;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
