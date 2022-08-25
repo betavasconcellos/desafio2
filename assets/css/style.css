@@ -35,7 +35,19 @@ button{
     background: white;
     border: 2px solid #000000;
     border-radius: 10px;
-    color: #000000;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 1rem 3rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+}
+
+.conteudo__botoes a {
+    background: white;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    color: #000;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     padding: 1rem 3rem;
@@ -64,3 +76,26 @@ button:focus {
 .conteudo__botoes{
     margin-top: 1rem;
 }
+
+.conteudo__botoes input {
+    font-family: 'Poppins', sans-serif;
+    background-color:#F0F1F6;
+    width: 100%;
+    max-width: 24rem;
+    padding: 1rem 2rem;
+    border-radius:5px ;
+}
+
+.conteudo__botoes .botao__enviar{
+    background-color: #000;
+}
+
+.conteudo__botoes .botao__enviar {
+    color: #fff;
+}
+
+.botao__enviar:hover {
+    background-color: rgb(29, 29, 29);
+    transition: 0.3s;
+}
+
