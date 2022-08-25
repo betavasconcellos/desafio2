@@ -5,14 +5,14 @@
 
 .menu__lista{
     display: flex;
-    position:absolute;
     align-items: center;
-    justify-content:end;
-    width: 100vw;
-
 }
 
-.menu__item{
-    margin-top: 3rem;
-    margin-right: 3rem;    
+.menu__item a{
+    color:black;
+}
+
+.menu__item a:hover{
+    color:black;
+    font-weight: bold;
 }

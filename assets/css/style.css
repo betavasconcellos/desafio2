@@ -1,13 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    text-decoration: none;
-    font: inherit;
-    vertical-align: baseline;
-    list-style: none;
-}
-
 main {
     display: flex;
     background: url(../img/square.svg);
@@ -31,39 +21,8 @@ p {
     color: rgba(0, 0, 0, 0.6);
 }
 
-button{
-    background: white;
-    border: 2px solid #000000;
-    border-radius: 10px;
-    color: #000;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    padding: 1rem 3rem;
-    margin-right: 1rem;
-    margin-top: 2rem;
-}
-
-.conteudo__botoes a {
-    background: white;
-    border: 2px solid #000000;
-    border-radius: 10px;
-    color: #000;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    padding: 1rem 3rem;
-    margin-right: 1rem;
-    margin-top: 2rem;
-}
-
-button:focus {
-    background: #060606;   
-    color:white; 
-}
-
 .background{
-    background: url(../img/bg.png) right/ cover no-repeat;
-    width:70vw;
-    height: 100vh;
+    background: url(../img/bg.png) center/ cover no-repeat;
 }
 
 .conteudo__descricao{
@@ -74,19 +33,32 @@ button:focus {
 }
 
 .conteudo__botoes{
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .conteudo__botoes input {
     font-family: 'Poppins', sans-serif;
     background-color:#F0F1F6;
-    width: 100%;
-    max-width: 24rem;
     padding: 1rem 2rem;
     border-radius:5px ;
 }
 
-.conteudo__botoes .botao__enviar{
+.conteudo__botoes a {
+    background: white;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 1rem 3rem;
+    text-align: center;
+}
+
+.conteudo__botoes a:focus {
+    background: #060606;   
+    color:white; 
+}
+.conteudo__botoes .botao__enviar {
     background-color: #000;
 }
 
@@ -95,7 +67,7 @@ button:focus {
 }
 
 .botao__enviar:hover {
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(30, 30, 30);
     transition: 0.3s;
 }
 
