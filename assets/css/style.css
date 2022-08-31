@@ -22,7 +22,7 @@ p {
 }
 
 .background{
-    background: url(../img/bg.png) center/ cover no-repeat;
+    background: url(../img/bg.png) top left/ cover no-repeat;
 }
 
 .conteudo__descricao{
